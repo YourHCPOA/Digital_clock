@@ -4,9 +4,9 @@ from datetime import datetime
 window = Tk()
 window.title("Digital Clock")
 window.geometry("600x300")
-window.configure(background="grey")
+window.configure(background="steelblue")
 
-label = Label(window, font=("Arial", 78, "bold"), background="steelblue", foreground="black")
+label = Label(window, font=("Arial", 78, "bold"), background="steelblue", foreground="white")
 label.pack(pady=100)
 
 def clock():
